@@ -3,4 +3,47 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(8, 16, 53, 0.91);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 20px;
+    background-color: white;
+}
+.logo{
+font-size: 1.5em;
+font-weight: bolder;
+text-decoration: none;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+li a:hover{
+    color: rgba(249, 196, 35, 0.927);
+    transition: .5s;
+    background-color: rgba(8, 16, 53, 0.91);
+    font-weight: bolder;
+}
+.botao{
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+.botao:hover{
+    color: rgba(8, 16, 53, 0.91);
+    transition: .5s;
+    background-color: rgba(249, 196, 35, 0.927);
+    font-weight: bolder;
 }
